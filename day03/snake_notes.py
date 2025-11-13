@@ -87,6 +87,12 @@ while running:
     # Update HUD
     # TODO: reassign to score_text much like you did previously, but now the text should be an f-string: f"Score: {score}"
     # TODO: same todo just ran out of room:  use same settings for alias, color, and background color
+    # Assume 'score_text' is an existing UI text element/object
+    # Assume 'score' is a variable holding the current score
+    score = 100  # Example score value
+
+    # 1. Update the text content using an f-string
+
 
     # Fill the surface
     # TODO: Read below.  One TODO, require's explanation
